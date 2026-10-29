@@ -1,0 +1,477 @@
+{
+  "agent": {
+    "id": "agent-001",
+    "name": "Savdo Agenti",
+    "role": "Savdo Agenti",
+    "company": "Hilol Kolbasalari",
+    "phone": "+998 90 123-45-67",
+    "avatar": "👨‍💼",
+    "status": "Online",
+    "territory": "Toshkent shahar hududi",
+    "planDaily": 15000000,
+    "planMonthly": 450000000,
+    "achievedDaily": 0,
+    "achievedMonthly": 280000000,
+    "cashCollectedDaily": 0,
+    "completedVisitsDaily": 0,
+    "totalVisitsDaily": 0,
+    "dailyPercent": 0,
+    "monthlyPercent": 62
+  },
+  "companies": [
+    {
+      "id": "comp-01",
+      "name": "Hilol Kolbasalari",
+      "industry": "Oziq-ovqat ishlab chiqarish",
+      "city": "Toshkent",
+      "phone": "+998 71 200-55-44"
+    },
+    {
+      "id": "comp-02",
+      "name": "Baraka Savdo",
+      "industry": "Distribyutsiya va Savdo",
+      "city": "Toshkent",
+      "phone": "+998 71 123-00-11"
+    },
+    {
+      "id": "comp-03",
+      "name": "Najot Trade",
+      "industry": "Distribyutsiya va Savdo",
+      "city": "Samarqand",
+      "phone": "+998 66 200-11-22"
+    },
+    {
+      "id": "comp-04",
+      "name": "Global Food",
+      "industry": "Oziq-ovqat",
+      "city": "Toshkent",
+      "phone": "+998 71 300-44-55"
+    },
+    {
+      "id": "comp-05",
+      "name": "Saodat Savdo",
+      "industry": "Chakana Savdo",
+      "city": "Namangan",
+      "phone": "+998 69 200-33-44"
+    },
+    {
+      "id": "comp-06",
+      "name": "Premium Meat",
+      "industry": "Go'sht mahsulotlari",
+      "city": "Toshkent",
+      "phone": "+998 71 400-22-33"
+    },
+    {
+      "id": "comp-07",
+      "name": "Anhor Distribusiya",
+      "industry": "Distribyutsiya",
+      "city": "Toshkent",
+      "phone": "+998 71 500-66-77"
+    },
+    {
+      "id": "comp-08",
+      "name": "Hamkor Savdo",
+      "industry": "Ulgurji Savdo",
+      "city": "Fergana",
+      "phone": "+998 73 200-88-99"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-all",
+      "name": "Barchasi",
+      "icon": "🛒"
+    },
+    {
+      "id": "cat-kol",
+      "name": "Kolbasalar",
+      "icon": "🌭"
+    },
+    {
+      "id": "cat-sos",
+      "name": "Sosiskalar",
+      "icon": "🥩"
+    },
+    {
+      "id": "cat-vetch",
+      "name": "Vetchina",
+      "icon": "🥓"
+    },
+    {
+      "id": "cat-pashtет",
+      "name": "Pashtет",
+      "icon": "🫙"
+    },
+    {
+      "id": "cat-other",
+      "name": "Boshqa",
+      "icon": "📦"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-01",
+      "sku": "HK-001",
+      "barcode": "4870000100011",
+      "name": "Kolbasa Doktorskaya 500g",
+      "category": "Kolbasalar",
+      "categoryId": "cat-kol",
+      "price": 45000,
+      "unit": "dona",
+      "stock": 500,
+      "minStock": 50,
+      "isPopular": true
+    },
+    {
+      "id": "prod-02",
+      "sku": "HK-002",
+      "barcode": "4870000100022",
+      "name": "Kolbasa Lyubitelskaya 500g",
+      "category": "Kolbasalar",
+      "categoryId": "cat-kol",
+      "price": 42000,
+      "unit": "dona",
+      "stock": 380,
+      "minStock": 50,
+      "isPopular": true
+    },
+    {
+      "id": "prod-03",
+      "sku": "HK-003",
+      "barcode": "4870000100033",
+      "name": "Sosiska Molochnaya 400g",
+      "category": "Sosiskalar",
+      "categoryId": "cat-sos",
+      "price": 38000,
+      "unit": "dona",
+      "stock": 650,
+      "minStock": 100,
+      "isPopular": true
+    },
+    {
+      "id": "prod-04",
+      "sku": "HK-004",
+      "barcode": "4870000100044",
+      "name": "Sosiska Slivochnaya 400g",
+      "category": "Sosiskalar",
+      "categoryId": "cat-sos",
+      "price": 40000,
+      "unit": "dona",
+      "stock": 420,
+      "minStock": 100,
+      "isPopular": false
+    },
+    {
+      "id": "prod-05",
+      "sku": "HK-005",
+      "barcode": "4870000100055",
+      "name": "Vetchina Klassik 300g",
+      "category": "Vetchina",
+      "categoryId": "cat-vetch",
+      "price": 55000,
+      "unit": "dona",
+      "stock": 200,
+      "minStock": 30,
+      "isPopular": true
+    },
+    {
+      "id": "prod-06",
+      "sku": "HK-006",
+      "barcode": "4870000100066",
+      "name": "Pashtет Pechenochniy 200g",
+      "category": "Pashtет",
+      "categoryId": "cat-pashtет",
+      "price": 22000,
+      "unit": "dona",
+      "stock": 300,
+      "minStock": 50,
+      "isPopular": false
+    },
+    {
+      "id": "prod-07",
+      "sku": "HK-007",
+      "barcode": "4870000100077",
+      "name": "Kolbasa Servelat 300g",
+      "category": "Kolbasalar",
+      "categoryId": "cat-kol",
+      "price": 68000,
+      "unit": "dona",
+      "stock": 150,
+      "minStock": 30,
+      "isPopular": true
+    },
+    {
+      "id": "prod-08",
+      "sku": "HK-008",
+      "barcode": "4870000100088",
+      "name": "Sosiska Frankfurt 500g",
+      "category": "Sosiskalar",
+      "categoryId": "cat-sos",
+      "price": 52000,
+      "unit": "dona",
+      "stock": 280,
+      "minStock": 50,
+      "isPopular": false
+    }
+  ],
+  "outlets": [
+    {
+      "id": "out-01",
+      "name": "Supermarket Makro Yunusobod",
+      "type": "A-Kategoriya (Supermarket)",
+      "contactPerson": "Aziz Karimov",
+      "phone": "+998 90 111-22-33",
+      "address": "Yunusobod tumani, 7-mavze, 15-uy",
+      "landmark": "Metro yaqinida",
+      "debt": 2500000,
+      "creditLimit": 50000000,
+      "status": "visited",
+      "lastVisit": "2026-10-28 19:15",
+      "routeOrder": 1,
+      "todayOrderTotal": 0,
+      "coords": {
+        "lat": 41.3405,
+        "lng": 69.301
+      },
+      "photo": "🏬"
+    },
+    {
+      "id": "out-02",
+      "name": "Do'kon Baxt Chilonzor",
+      "type": "B-Kategoriya (Do'kon)",
+      "contactPerson": "Malika Yusupova",
+      "phone": "+998 90 222-33-44",
+      "address": "Chilonzor tumani, 9-mavze, 22-uy",
+      "landmark": "Chilonzor metro",
+      "debt": 1200000,
+      "creditLimit": 20000000,
+      "status": "visited",
+      "lastVisit": "2026-10-28 19:19",
+      "routeOrder": 2,
+      "todayOrderTotal": 0,
+      "coords": {
+        "lat": 41.2854,
+        "lng": 69.2043
+      },
+      "photo": "🏪"
+    },
+    {
+      "id": "out-03",
+      "name": "Minimarket Oltin Yashnobod",
+      "type": "B-Kategoriya (Do'kon)",
+      "contactPerson": "Bobur Toshmatov",
+      "phone": "+998 90 333-44-55",
+      "address": "Yashnobod tumani, Mustakillik ko'ch, 5-uy",
+      "landmark": "Bozor yaqinida",
+      "debt": 0,
+      "creditLimit": 15000000,
+      "status": "visited",
+      "lastVisit": "2026-10-28 19:20",
+      "routeOrder": 3,
+      "todayOrderTotal": 0,
+      "coords": {
+        "lat": 41.315,
+        "lng": 69.32
+      },
+      "photo": "🏪"
+    },
+    {
+      "id": "out-04",
+      "name": "Kiosk Sarvar Mirzo Ulugbek",
+      "type": "C-Kategoriya (Kiosk)",
+      "contactPerson": "Sarvar Mirzayev",
+      "phone": "+998 90 444-55-66",
+      "address": "Mirzo Ulugbek tumani, 14-mavze",
+      "landmark": "Avtobus bekati",
+      "debt": 800000,
+      "creditLimit": 8000000,
+      "status": "visited",
+      "lastVisit": "2026-10-28 19:19",
+      "routeOrder": 4,
+      "todayOrderTotal": 0,
+      "coords": {
+        "lat": 41.33,
+        "lng": 69.28
+      },
+      "photo": "🏪"
+    },
+    {
+      "id": "out-05",
+      "name": "Supermarket Korzinka Sergeli",
+      "type": "A-Kategoriya (Supermarket)",
+      "contactPerson": "Dilnoza Hasanova",
+      "phone": "+998 90 555-66-77",
+      "address": "Sergeli tumani, Yangi hayot ko'ch, 8-uy",
+      "landmark": "Markaziy maydon",
+      "debt": 5600000,
+      "creditLimit": 80000000,
+      "status": "visited",
+      "lastVisit": "2026-10-28 19:19",
+      "routeOrder": 5,
+      "todayOrderTotal": 0,
+      "coords": {
+        "lat": 41.23,
+        "lng": 69.25
+      },
+      "photo": "🏬"
+    }
+  ],
+  "orders": [],
+  "payments": [],
+  "visits": [
+    {
+      "id": "VIS-05",
+      "outletId": "out-03",
+      "outletName": "Minimarket Oltin Yashnobod",
+      "checkIn": "2026-10-28 19:20",
+      "checkOut": "2026-10-28 19:20",
+      "durationMinutes": 15,
+      "result": "Rejaviy tashrif bajarildi",
+      "status": "Bajarildi",
+      "orderPlaced": false,
+      "amount": 0
+    },
+    {
+      "id": "VIS-04",
+      "outletId": "out-02",
+      "outletName": "Do'kon Baxt Chilonzor",
+      "checkIn": "2026-10-28 19:19",
+      "checkOut": "2026-10-28 19:19",
+      "durationMinutes": 15,
+      "result": "Rejaviy tashrif bajarildi",
+      "status": "Bajarildi",
+      "orderPlaced": false,
+      "amount": 0
+    },
+    {
+      "id": "VIS-03",
+      "outletId": "out-05",
+      "outletName": "Supermarket Korzinka Sergeli",
+      "checkIn": "2026-10-28 19:19",
+      "checkOut": "2026-10-28 19:19",
+      "durationMinutes": 15,
+      "result": "Rejaviy tashrif bajarildi",
+      "status": "Bajarildi",
+      "orderPlaced": false,
+      "amount": 0
+    },
+    {
+      "id": "VIS-02",
+      "outletId": "out-04",
+      "outletName": "Kiosk Sarvar Mirzo Ulugbek",
+      "checkIn": "2026-10-28 19:19",
+      "checkOut": "2026-10-28 19:19",
+      "durationMinutes": 15,
+      "result": "Rejaviy tashrif bajarildi",
+      "status": "Bajarildi",
+      "orderPlaced": false,
+      "amount": 0
+    },
+    {
+      "id": "VIS-01",
+      "outletId": "out-01",
+      "outletName": "Supermarket Makro Yunusobod",
+      "checkIn": "2026-10-28 19:15",
+      "checkOut": "2026-10-28 19:15",
+      "durationMinutes": 15,
+      "result": "Rejaviy tashrif bajarildi",
+      "status": "Bajarildi",
+      "orderPlaced": false,
+      "amount": 0
+    }
+  ],
+  "users": [
+    {
+      "id": "user-mvt4shg58b8e",
+      "login": "dilshod",
+      "password": "scrypt$e112cc6ce3b74a33e81b9a90f0c6658c$afe3f04b1a779f05ce3162188e046e416d34bd398379a8b622d9e862ca3aeac27d247cb716fda67cdce5bc98cda491c4f2f256605d7fe15df4da60c8a4580cb2",
+      "name": "Dilmurod Azimov",
+      "company": "Hilol Kolbasalari",
+      "role": "Savdo Agenti",
+      "phone": "+998 90",
+      "avatar": "👨‍💼",
+      "blocked": false,
+      "createdAt": "2026-10-29T05:57:09.173Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "SES-2a79a879",
+      "tokenHash": "99c653cbe60c31386e9e8cfafd602eb4001048c6f1bca3c068b905c668bf7852",
+      "userId": "user-mvt4shg58b8e",
+      "requestId": "REQ-914cee99",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-29T05:57:58.599Z",
+      "expiresAt": "2026-10-30T05:57:58.599Z",
+      "revoked": true
+    },
+    {
+      "id": "SES-72a4fe06",
+      "tokenHash": "d63fce4a421aa6319a2991f3f0bb94824c15fb5e441f0c6b3b83d9977ff4f485",
+      "userId": "user-mvt4shg58b8e",
+      "requestId": "REQ-48c7d9bb",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "createdAt": "2026-10-29T14:19:04.068Z",
+      "expiresAt": "2026-10-30T14:19:04.068Z",
+      "revoked": false
+    }
+  ],
+  "loginRequests": [
+    {
+      "id": "REQ-48c7d9bb",
+      "userId": "user-mvt4shg58b8e",
+      "login": "dilshod",
+      "name": "Dilmurod Azimov",
+      "company": "Hilol Kolbasalari",
+      "role": "Savdo Agenti",
+      "phone": "+998 90",
+      "kind": "login",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "status": "approved",
+      "createdAt": "2026-10-29T14:18:22.070Z",
+      "decidedAt": "2026-10-29T14:18:53.551Z",
+      "decidedBy": "admin-panel",
+      "pollKeyHash": "4897526d8360145d2df56073b787bceee49f5c079511ce8d3616fc192a810b13",
+      "tokenIssued": true
+    },
+    {
+      "id": "REQ-b253de50",
+      "userId": "user-mvt4shg58b8e",
+      "login": "dilshod",
+      "name": "Dilmurod Azimov",
+      "company": "Hilol Kolbasalari",
+      "role": "Savdo Agenti",
+      "phone": "+998 90",
+      "kind": "login",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "status": "rejected",
+      "createdAt": "2026-10-29T14:16:44.672Z",
+      "decidedAt": "2026-10-29T14:17:04.554Z",
+      "decidedBy": "admin-panel",
+      "pollKeyHash": "b75245dc1c84dd931da11fa8593c01cdd6103a7310c384e6b4e2ed3db20e158b",
+      "tokenIssued": false
+    },
+    {
+      "id": "REQ-914cee99",
+      "userId": "user-mvt4shg58b8e",
+      "login": "dilshod",
+      "name": "Dilmurod Azimov",
+      "company": "Hilol Kolbasalari",
+      "role": "Savdo Agenti",
+      "phone": "+998 90",
+      "kind": "register",
+      "ip": "::1",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "status": "approved",
+      "createdAt": "2026-10-29T05:57:09.215Z",
+      "decidedAt": "2026-10-29T05:57:50.817Z",
+      "decidedBy": "admin-panel",
+      "pollKeyHash": "4864cbf2e88c6ea4e1a3bef4bd0d7ae5cae393aea5a578c76edbaef6b854747c",
+      "tokenIssued": true
+    }
+  ]
+}
